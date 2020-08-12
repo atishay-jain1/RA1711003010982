@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!DOCTYPE books [<!ELEMENT books (book)*>
+<!ELEMENT book (title,author,genre,copyright,edition,isbn-no,publisher,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT copyright (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT isbn-no (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<books>
+	<book>
+		<title>Sapiens: A Brief History of Humankind</title>
+		<author>YUVAL NOAH HAZARI</author>
+		<genre>Novel</genre>
+		<copyright>2012</copyright>
+		<edition>Second</edition>
+		<isbn-no>978-3-16-148410-0</isbn-no>
+		<publisher>The MIT Press</publisher>
+		<price>$95</price>
+	</book>
+	<book>
+		<title>Politics of Opportunism</title>
+		<author>R P N SINGH</author>
+		<genre>Non-fiction</genre>
+		<copyright>2000</copyright>
+		<edition>First</edition>
+		<isbn-no>978-3-16-148425-0</isbn-no>
+		<publisher>Universities Press</publisher>
+		<price>$120</price>
+	</book>
+	<book>
+		<title>The Testaments</title>
+		<author>MARGARET ATWOOD</author>
+		<genre>Fiction</genre>
+		<copyright>2011</copyright>
+		<edition>First</edition>
+		<isbn-no>978-3-16-148430-0</isbn-no>
+		<publisher>Crown Publishing</publisher>
+		<price>$235</price>
+	</book>
+	<book>
+		<title>Celestial Bodies</title>
+		<author>JOKHA ALHARTHI</author>
+		<genre>Textbook</genre>
+		<copyright>1984</copyright>
+		<edition>Third</edition>
+		<isbn-no>978-3-16-148440-0</isbn-no>
+		<publisher>Doubleday</publisher>
+		<price>$150</price>
+	</book>
+	<book>
+		<title>Cheque book</title>
+		<author>VASDEV MOHI</author>
+		<genre>Fiction</genre>
+		<copyright>2020</copyright>
+		<edition>Second</edition>
+		<isbn-no>978-3-16-148450-0</isbn-no>
+		<publisher>Wall Street Publisher</publisher>
+		<price>$250</price>
+	</book>
+</books>
